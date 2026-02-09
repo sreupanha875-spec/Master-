@@ -61,11 +61,12 @@ noBtn.addEventListener("mouseover", () => {
 
 yesBtn.addEventListener("click", () => {
     title.textContent = "Yippeeee!";
-    catImg.src = ".vscode/cat_dance (1).gif";
+    catImg.src = "cat_dance (1).gif";
 
     document.querySelector(".letter-window").classList.add("final");
 
     buttons.style.display = "none";
 
     finalText.style.display = "block";
+
 });
